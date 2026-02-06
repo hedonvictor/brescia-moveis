@@ -4,6 +4,7 @@ import {
   Link,
   Navigate
 } from "react-router-dom";
+import { HomePage } from "../pages";
 
 
 export const AppRoutes = () => {
@@ -11,7 +12,7 @@ export const AppRoutes = () => {
 
     return(
         <Routes>
-            <Route path='/inicio' element={<p>Pagina inicial</p>}/>
+            <Route path='/inicio' element={<HomePage/>}/>
 
             <Route path='*' element={<Navigate to='/inicio'/>}/>
         </Routes>

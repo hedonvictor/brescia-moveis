@@ -1,0 +1,45 @@
+@import url(./efects.css);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.img-rectangular {
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente para preencher o contêiner */
+    max-width: 95%; /* Para telas menores, adapta a largura */
+    max-height: 100%; /* Para telas menores, adapta a altura */
+}
+
+.ContainerProducts {
+    background-image: url(../images/staCasaImg.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 80%;
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+  
+.whatsapp-button:hover {
+    text-decoration: none;
+}
+  
+.buttonWhatsapp {
+    border-radius: 15px;
+}
